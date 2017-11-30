@@ -1,0 +1,22 @@
+[LOG],11/8/2017,10:38 AM,[CREATED],[::1]
+
+[LOG],11/8/2017,10:38 AM,[VER],[::1],Version - WebService: WSA_5.0 11/16/16  API:11.0.0:11/8/17 10:37  Model:WSW.2.0.2
+
+[LOG],11/8/2017,10:38 AM,[RUN->],[::1],{"Inputs":[] },{"Outputs":["all"],"Providers":["all"]}
+
+[LOG],11/8/2017,10:39 AM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"SUCCESS","MESSAGE":"WebServ:(Retreived)","STARTYEAR":2015,"ENDYEAR":2064,"SCNNAME":""}
+
+[LOG],11/27/2017,12:17 PM,[RUN->],[::1],{"Inputs":[] },{"Outputs":["GW_UD_P"],"Providers":["COU"]}
+
+[LOG],11/27/2017,12:17 PM,[CREATED],[::1]
+
+[LOG],11/27/2017,12:17 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"ERROR","MESSAGE":"VALID(Valid Model)  FETCH:(Created)   FIELD SET:(No Error)   FIELD GET:( Invalid Provider Code : COU)   MODEL:(No Error)","STARTYEAR":2015,"ENDYEAR":2064,"SCNNAME":""}
+
+[LOG],11/27/2017,12:18 PM,[RUN->],[::1],{"Inputs":[] },{"Outputs":["GW_UD_P"],"Providers":["CAU"]}
+
+[LOG],11/27/2017,12:18 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"SUCCESS","MESSAGE":"WebServ:(Retreived)","STARTYEAR":2015,"ENDYEAR":2064,"SCNNAME":""}
+
+[LOG],11/27/2017,12:19 PM,[RUN->],[::1],{"Inputs":[] },{"Outputs":["GW_UD_P"],"Providers":["AZC"]}
+
+[LOG],11/27/2017,12:19 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"SUCCESS","MESSAGE":"WebServ:(Retreived)","STARTYEAR":2015,"ENDYEAR":2064,"SCNNAME":""}
+

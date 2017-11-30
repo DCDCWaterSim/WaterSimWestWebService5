@@ -1,0 +1,26 @@
+[LOG],10/13/2017,2:56 PM,[RUN->],[::1],{"Inputs":[]},{"Outputs":["AD","ADP"],"Providers":["AZ_central"]}
+
+[LOG],10/13/2017,2:56 PM,[CREATED],[::1]
+
+[LOG],10/13/2017,2:57 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"ERROR","MESSAGE":"VALID(Valid Model)  FETCH:(Created)   FIELD SET:(No Error)   FIELD GET:( Invalid Provider Code : AZ_central ; Invalid Field Request FLD:AD - Object reference not set to an instance of an object. ; Invalid Field Request FLD:ADP - Object reference not set to an instance of an object.)   MODEL:(No Error)","STARTYEAR":2015,"ENDYEAR":2050,"SCNNAME":""}
+
+[LOG],10/13/2017,2:59 PM,[RUN->],[::1],{"Inputs":[]},{"Outputs":["AD","ADP"],"Providers":["AZ_Central"]}
+
+[LOG],10/13/2017,2:59 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"ERROR","MESSAGE":"VALID(Valid Model)  FETCH:(Retreived)   FIELD SET:(No Error)   FIELD GET:( Invalid Provider Code : AZ_Central ; Invalid Field Request FLD:AD - Object reference not set to an instance of an object. ; Invalid Field Request FLD:ADP - Object reference not set to an instance of an object.)   MODEL:(No Error)","STARTYEAR":2015,"ENDYEAR":2050,"SCNNAME":""}
+
+[LOG],10/13/2017,3:01 PM,[RUN->],[::1],{"Inputs":[]},{"Outputs":["UPOP"],"Providers":["AZ_Central"]}
+
+[LOG],10/13/2017,3:01 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"ERROR","MESSAGE":"VALID(Valid Model)  FETCH:(Retreived)   FIELD SET:(No Error)   FIELD GET:( Invalid Provider Code : AZ_Central ; Invalid Field Request FLD:UPOP - Object reference not set to an instance of an object.)   MODEL:(No Error)","STARTYEAR":2015,"ENDYEAR":2050,"SCNNAME":""}
+
+[LOG],10/13/2017,3:03 PM,[RUN->],[::1],{"Inputs":[]},{"Outputs":["UPOP"],"Providers":["AZC"]}
+
+[LOG],10/13/2017,3:03 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"ERROR","MESSAGE":"VALID(Valid Model)  FETCH:(Retreived)   FIELD SET:(No Error)   FIELD GET:(Invalid Field Request FLD:UPOP - Object reference not set to an instance of an object.)   MODEL:(No Error)","STARTYEAR":2015,"ENDYEAR":2050,"SCNNAME":""}
+
+[LOG],10/13/2017,3:04 PM,[RUN->],[::1],{"Inputs":[]},{"Outputs":["T_P"],"Providers":["AZC"]}
+
+[LOG],10/13/2017,3:04 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"SUCCESS","MESSAGE":"WebServ:(Retreived)","STARTYEAR":2015,"ENDYEAR":2050,"SCNNAME":""}
+
+[LOG],10/13/2017,3:57 PM,[RUN->],[::1],{"Inputs":[]},{"Outputs":["T_P"],"Providers":["CAU"]}
+
+[LOG],10/13/2017,3:57 PM,[RUN<-],[::1],"MODELSTATUS":{"STATUS":"SUCCESS","MESSAGE":"WebServ:(Retreived)","STARTYEAR":2015,"ENDYEAR":2050,"SCNNAME":""}
+
